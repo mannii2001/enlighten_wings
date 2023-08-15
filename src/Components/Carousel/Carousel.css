@@ -1,0 +1,152 @@
+/* .backgroundDiv {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url("../../images/image6.jpg"); 
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center; 
+} */
+.contentDiv{
+    color: white;
+    padding: 0rem 4rem;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.learnButton{
+    border: none;
+    background-color: #FE5D37;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    font-size: large;
+    margin-right: 1rem;
+    transition: all ease-in-out 0.3s;
+}
+.learnButton:hover{
+    background-color: #a74630;
+}
+
+.classesButton{
+    border: none;
+    background-color: #1f69b8;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    font-size: large;
+    margin-left: 1rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.classesButton:hover{
+    background-color: #0a3d72;
+}
+
+.contentHeading{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    font-size: 70px;
+    line-height: normal;
+   
+   }
+  
+  
+.contentsubHeading{
+    padding: 1rem 2rem 1rem 0rem;
+    font-size: larger;
+   
+}
+
+.contentButtons{
+    padding-top: 3rem;
+}
+@media(max-width:1260px){
+    .contentDiv{
+        max-width: 75%;
+    }
+}
+@media (max-width:1090px){
+    .contentHeading{
+        font-size: 55px;
+    }
+    .contentsubHeading{
+        font-size: large;
+    }
+}
+
+@media (max-width:1032px){
+    .contentHeading{
+        font-size: 50px;
+    }
+    .contentsubHeading{
+        font-size: large;
+    }
+    .contentDiv{
+        max-width: 80%;
+    }
+    .backgroundDiv{
+        height: 85vh !important;
+    }
+}
+
+@media(max-width:750px){
+    .contentHeading{
+        font-size: 40px;
+    }
+    .contentsubHeading{
+        font-size: medium;
+    }
+    .learnButton{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+    .classesButton{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+    .contentDiv{
+        max-width: 85%;
+    }
+    .backgroundDiv{
+        height: 75vh !important;
+    }
+}
+
+@media(max-width:580px){
+    .contentDiv{
+        max-width: 100%;
+        padding: 0rem 2rem;
+    }
+    .backgroundDiv{
+        height: 70vh !important;
+    }
+}
+
+@media(max-width:400px){
+    .contentDiv{
+        padding: 0rem 1rem;
+    }
+    .contentHeading{
+        font-size: 30px;
+    }
+    .contentsubHeading{
+        padding: 1rem 1rem 1rem 0rem;
+      font-size: small;
+    }
+    .learnButton{
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        margin-right: 10px;
+    }
+    .classesButton{
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        margin-left: 10px;
+    }
+    .backgroundDiv{
+        height: 60vh !important;
+    }
+}

@@ -1,0 +1,127 @@
+.facilitiesContainer {
+  display: flex;
+  padding: 1.5rem 2.3rem 1.5rem 2.3rem;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+}
+.facilities_item {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.facilities_item_logo {
+  background-color: rgba(228, 224, 224, 0.75);
+  padding: 1.5rem 1.6rem 1.5rem 1.6rem;
+  border-radius: 100%;
+}
+.item_content {
+  display: flex;
+  text-align: center;
+  width: 290px;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  height: 16rem;
+  background-color: rgba(245 234 234 / 75%);
+  border-radius: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitiesHeadingAndSubheading{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  justify-content: center;
+}
+
+.facilitiesMainSubheading{
+  padding-top: 1rem;
+  text-align: center;
+  font-size: large;
+  width: 60%;
+  color: #74787C;
+}
+
+.facilitiesMainheading{
+  font-family: "Lobster Two", cursive;
+}
+
+.qualified {
+  color: rgb(13, 110, 253);
+}
+.para {
+  color: #74787c;
+  margin-top: 2rem;
+}
+
+.one_to_one {
+  color: rgb(255, 193, 7);
+}
+.learning_with_fun {
+  color: rgb(13, 202, 240);
+}
+.critical_thinking{
+    color: rgb(25,135,84);
+}
+
+@media (max-width:1250px){
+  .facilitiesContainer{
+    padding: 2rem;
+  }
+}
+
+@media (max-width:1230px){
+  .facilitiesContainer{
+    padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+
+  }
+}
+
+@media (max-width:1205px){
+  .item_content{
+    width: 270px;
+  }
+}
+
+@media (max-width:1130px){
+  .item_content{
+    width: 245px;
+  }
+  .facilitiesMainSubheading{
+    width: 75%;
+}
+}
+
+@media(max-width:1020px){
+  .facilitiesContainer{
+    flex-wrap: wrap;
+  }
+  .facilities_item{
+    width: 50%;
+  }
+  .item_content{
+    width: 80%;
+  }
+  .facilitiesMainSubheading{
+    width: 80%;
+}
+}
+@media (max-width:600px){
+  .facilities_item{
+    width: 100%;
+  }
+  .item_content{
+    width: 100%;
+  }
+  .para{
+    font-size: larger;
+  }
+  .facilitiesMainSubheading{
+      width: 100%;
+  }
+}

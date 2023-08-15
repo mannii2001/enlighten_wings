@@ -1,0 +1,78 @@
+.footerContainer {
+  background-color: #103741;
+  padding: 3rem 6rem;
+  display: flex;
+  color: rgb(255, 255, 255, 0.5);
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.contactHeading {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.SocialHandleImages {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.btn-social {
+  border-radius: 50rem;
+  margin: 0.5rem;
+}
+
+.quicklinks {
+  display: flex;
+  padding: 1rem;
+
+  flex-direction: column;
+  text-decoration: none;
+}
+.arrowIcon {
+  margin-right: 1rem;
+}
+.quickLinkHeading {
+  color: white;
+  padding-bottom: 1.5rem;
+  font-family: "Lobster Two", cursive;
+}
+.newsletter{
+    font-family: "Lobster Two", cursive;
+}
+@media (max-width:1000px){
+    .footerContainer{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .newsletter{
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width:593px){
+    .footerContainer{
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 3.5rem;
+    }
+   
+    .quicklinks{
+        /* padding: 0; */
+        padding-left: 0.5rem;
+        
+        padding-top: 1.5rem;
+    }
+    .newsLetterEmail{
+        max-width: 350px !important;
+    }
+    .newsLetterEmailHeading{
+        max-width: 350px !important;
+    }
+    .contactDetailsDiv{
+        padding-left: 0.3rem;
+    }
+}

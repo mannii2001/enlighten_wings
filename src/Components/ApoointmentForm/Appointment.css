@@ -1,0 +1,85 @@
+.Appointment_Form_Container{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3efef;
+}
+.Appointment_Form{
+    width: 50%;
+    height: 480px;
+    padding: 2rem;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Appointment_form_image{
+    border-radius: 20px;
+    width: 50%;
+  height: 480px;
+  background-image: url('../../images/appointmentImage.jpg');
+  background-size: cover;
+  background-position: center;  
+}
+#guardianName ,#guardianEmail, #childName, #message,#childAge{
+    width: 80%;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 10px;   
+    transition: all ease 0.3s;
+}
+
+.submitButtonDiv{
+    width: 80%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #FE5D37;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.appointmentHeading{
+    /* text-align: center; */
+    font-family: "Lobster Two", cursive;
+}
+textarea{
+    resize: none;
+    height: 4rem;
+}
+input:focus {
+    outline-color: rgb(254, 93, 55);
+    outline: none;
+  box-shadow: 1px 1px 12px rgba(254, 93, 55, 0.9);
+  }
+
+textarea:focus{
+    outline-color: rgb(254, 93, 55);
+    outline: none;
+  box-shadow: 1px 1px 12px rgba(254, 93, 55, 0.9);
+}
+@media (max-width:850px){
+    .Appointment_Form_Container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Appointment_Form{
+        width: 100%;
+        padding: 0;
+    }
+    .Appointment_form_image{
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+    .submitButtonDiv{
+        width: 100%;
+    }
+    #guardianName ,#guardianEmail, #childName, #message,#childAge{
+        width: 100%;
+    }
+    .Appointment_form_image{
+        width: 100%;
+    }
+}

@@ -48,7 +48,7 @@ const Navbar = () => {
         </h1>
       </div>
       <div className="centerMenu">
-        <p className="menuText" onClick={navigateHome}>last try again in the Home</p>
+        <p className="menuText" onClick={navigateHome}>nnnnnn try again in the Home</p>
         <p className="menuText" onClick={navigateClasses}>Classes</p>
         <p className="menuText" onClick={navigateAboutus}>About Us</p>
         <p className="menuText" onClick={navigateContactus}>Contact Us</p>

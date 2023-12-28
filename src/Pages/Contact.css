@@ -1,0 +1,55 @@
+.contactPageHeading{
+    display: flex; 
+     flex-direction: column; 
+     justify-content: center;
+    align-items: center;
+    
+}
+.contactHeading{
+    font-family: "Lobster Two", cursive;
+    color: black;
+    padding: 2rem;
+    
+}
+.contactSubheading{
+    text-align: center;
+    max-width: 80%;
+    font-size: larger;
+    color: #74787C;
+}
+
+.contactIcons{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.IconItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconDiv{
+    padding: 1.3rem 1.5rem;
+    background-color: #e5e1e0;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:760px){
+    .contactIcons{
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .contactIconDetails{
+        font-size: smaller;
+    }
+    .contactIcons{
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+}

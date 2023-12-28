@@ -8,6 +8,7 @@ import Review from '../Components/ReviewsSection/Review'
 import Classes from '../Components/Classes/Classes'
 
 const Homepage = () => {
+  
   return (
     <div>
       <Navbar/>
@@ -17,7 +18,6 @@ const Homepage = () => {
       <Appointment/>
       <Review/>
       <Footer/>
-      
     </div>
   )
 }

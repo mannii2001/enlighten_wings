@@ -1,5 +1,11 @@
 import React from "react";
 import './Review.css';
+import harsh from '../../images/harshLodhi.jpeg'
+import dhruv from '../../images/dhruv.jpeg'
+import dummy from '../../images/dummy.jpg'
+// import dhruv2 from '../../images/dhruv-removebg-preview.png'
+// import harsh2 from '../../images/harshLodhi-removebg-preview.png'
+// import dummy3 from '../../images/dummy-removebg-preview.png'
 import {
   MDBCol,
   MDBContainer,
@@ -23,14 +29,14 @@ export default function App() {
         <MDBCol md="4" className="mb-5 mb-md-0">
           <div className="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              src={dhruv}
               className="rounded-circle shadow-1-strong"
               width="150"
               height="150"
               alt=""
             />
           </div>
-          <h5 className="mb-3"><strong>Sneha</strong></h5>
+          <h5 className="mb-3"><strong>Dhruv</strong></h5>
           <h6 className="text-primary mb-3">India</h6>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
@@ -65,15 +71,15 @@ export default function App() {
         <MDBCol md="4" className="mb-5 mb-md-0">
           <div className="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+              src={harsh}
               className="rounded-circle shadow-1-strong"
               width="150"
               height="150"
               alt=""
             />
           </div>
-          <h5 className="mb-3"><strong>Lisa Cudrow</strong></h5>
-          <h6 className="text-primary mb-3">Canada</h6>
+          <h5 className="mb-3"><strong>Harsh Lodhi</strong></h5>
+          <h6 className="text-primary mb-3">India</h6>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
             Outstanding results! Methodical teaching approach. Impressed with personalized attention and insightful study material.
@@ -102,7 +108,7 @@ export default function App() {
         <MDBCol md="4" className="mb-5 mb-md-0">
           <div className="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+              src={dummy}
               className="rounded-circle shadow-1-strong"
               width="150"
               height="150"

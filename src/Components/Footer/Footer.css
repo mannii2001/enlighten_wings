@@ -1,14 +1,14 @@
 .footerContainer {
   background-color: #103741;
-  padding: 3rem 6rem;
+  padding: 3rem 5rem;
   display: flex;
   color: rgb(255, 255, 255, 0.5);
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 
-.contactHeading {
+.contactHeading1 {
   color: white;
   font-family: "Lobster Two", cursive;
   padding-bottom: 1.5rem;
@@ -75,4 +75,12 @@
     .contactDetailsDiv{
         padding-left: 0.3rem;
     }
+}
+
+.hover{
+  cursor: pointer;
+}
+
+.place::placeholder {
+  color: rgb(216, 211, 211);
 }

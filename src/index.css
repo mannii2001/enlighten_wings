@@ -7,3 +7,30 @@
 }
 
 
+.shippingContainer{
+  padding: 2rem;
+  height: 50vh;
+}
+.shippingHeading{
+  padding-bottom: 0.7rem;
+  border-bottom: 5px solid black;
+}
+.shippingSubHeading{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.shippingContent{
+  font-size: larger;
+}
+.privacyContainer{
+  padding: 2rem;
+}
+.privacyHeading{
+  padding-bottom: 0.7rem;
+  border-bottom: 4px solid black;
+}
+.privacyContent{
+  padding: 0.8rem 0rem;
+  text-align: justify;
+  font-size: medium;
+}

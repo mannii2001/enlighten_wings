@@ -1,0 +1,30 @@
+.aboutUsDetails{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.aboutUsHeading{
+    
+  font-family: "Lobster Two", cursive;
+}
+.aboutUsSubHeading{
+    padding-top: 1rem;
+    font-family: "Lobster Two", cursive;
+}
+.aboutusVision{
+    padding-top: 1rem;
+    font-size: larger;
+    color: #74787C;
+}
+
+@media (max-width:756px){
+    .aboutusVision{
+        font-size: large;
+        text-align: justify;
+    }
+    .aboutUsDetails{
+        padding: 1.5rem;
+    }
+}

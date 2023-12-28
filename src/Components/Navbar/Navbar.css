@@ -19,11 +19,13 @@
   top: 0px;
   left: 0px;
   transition: transform 0.3s ease-in-out 0s;
+  overflow: hidden;
   z-index: 1;
 }
 
 .overlay {
   transform: translateX(0px);
+  overflow: hidden;
 }
 
 .mobile-navbar {
